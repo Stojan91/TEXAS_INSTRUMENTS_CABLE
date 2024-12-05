@@ -174,11 +174,9 @@ if ser.in\_waiting > 0:
 
 data = ser.readline().decode('utf-8').strip() print(f"Odczytano dane: {data}")
 ```
-
 **Wyjaśnienie:**
-
 - **serial.Serial('COM3', 9600, timeout=1)**: Tworzy połączenie szeregowe z urządzeniem. W tym przypadku port COM3 (w systemie Windows), prędkość transmisji 9600 bps (standardowa dla TI-85), 
-  ```
+```
   timeout 1 sekunda.
 ```
 - **ser.readline()**: Odczytuje dane z portu szeregowego. Używamy **`decode('utf-8')`** do konwersji bajtów na tekst, a **`strip()`** do usunięcia zbędnych białych znaków.
