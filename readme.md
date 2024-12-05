@@ -29,7 +29,7 @@ Układ Pinów:
 Tip (czubek): Pin TX (Transmisja)
 Ring (pierścień): Pin RX (Odbiór)
 Sleeve (rękaw): Pin GND (Masa)
-
+![Jack](wtyk.jpg)
 - Konwerter RS232 (MAX232) ma dwa główne piny: **`TX`** (transmisja) i **`RX`** (odbiór).
 - Pin **`TX`** konwertera podłączymy do pinu **`RX`** ESP8266.
 - Pin **`RX`** konwertera podłączymy do pinu **`TX`** ESP8266.
