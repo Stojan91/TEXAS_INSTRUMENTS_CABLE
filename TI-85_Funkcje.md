@@ -75,3 +75,74 @@ TI-85 ma możliwość pracy w trybie obliczeń statystycznych (np. obliczanie ś
 Naciśnij MODE.
 Wybierz odpowiednią opcję (np. “Stat”, “Data”).
 Zatwierdź wybór, aby przejść do obliczeń statystycznych. Te zmiany ustawień mogą poprawić komfort użytkowania kalkulatora i dostosować go do Twoich preferencji. Jeśli chcesz dowiedzieć się więcej o szczegółowych funkcjach kalkulatora TI-85,
+
+**10.Zmiana kontrastu ekranu**
+
+Włącz kalkulator. Naciśnij i przytrzymaj przycisk 2nd.
+Następnie naciśnij przycisk Up Arrow (strzałka w górę), aby zwiększyć kontrast, lub Down Arrow (strzałka w dół), aby go zmniejszyć.
+Zwolnij przycisk 2nd, aby zakończyć ustawianie.
+
+**11.Zmiana jednostki czasu**
+
+Wejdź do menu ustawień, naciskając przycisk MODE.
+Wybierz odpowiednią jednostkę czasu (sekundy, minuty itp.) i potwierdź zmianę.
+
+**12.Zmienianie trybu obliczeń (radiany/grady/stopnie)**
+
+Naciśnij przycisk MODE.
+Wybierz odpowiednią opcję (Degrees, Radians, Grads) za pomocą strzałek i naciśnij ENTER.
+
+**13.Zmiana formatu wyświetlania liczb**
+
+Naciśnij przycisk MODE.
+Wybierz opcję dotyczącą formatu wyświetlania liczb:
+Normal: standardowy format,
+Scientific: format naukowy (np. 1.23e+4),
+Engineering: format inżynierski,
+Fraction: format ułamkowy.
+Potwierdź wybór naciskając ENTER.
+
+**14.Zmiana trybu kalkulatora**
+
+TI-85 oferuje różne tryby obliczeniowe, takie jak tryb RADICAL (pierwiastki), DEGREE (dla obliczeń trygonometrycznych w stopniach) i inne.
+Aby zmienić tryb kalkulatora: Naciśnij przycisk MODE, wybierz odpowiednią opcję trybu pracy i naciśnij ENTER.
+
+**15.Zmiana ustawień dźwięku**
+
+Możesz włączyć lub wyłączyć dźwięki wydawane przez kalkulator przy wykonywaniu obliczeń lub przyciskach.
+Aby wyłączyć lub włączyć dźwięki: Naciśnij 2nd. Następnie naciśnij ON. Jeśli kalkulator ma możliwość zmiany ustawień dźwięku, pojawi się odpowiednia opcja.
+
+**16.Resetowanie kalkulatora**
+
+Jeśli chcesz przywrócić domyślne ustawienia kalkulatora (np. przy problemach z jego działaniem), możesz wykonać reset.
+Aby zresetować TI-85:
+Naciśnij przycisk 2nd.
+Naciśnij przycisk MEM (Memory).
+Następnie wybierz opcję Reset i potwierdź resetowanie, postępując zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+**17.Zmiana języka wyświetlania**
+
+Na niektórych kalkulatorach TI-85 dostępna jest możliwość zmiany języka wyświetlania (np. z angielskiego na inne języki).
+Aby to zmienić, skonsultuj się z instrukcją obsługi, ponieważ może to zależeć od wersji oprogramowania kalkulatora.
+
+**18.Ustawienia trybu statystycznego**
+
+TI-85 ma możliwość pracy w trybie obliczeń statystycznych (np. obliczanie średniej, wariancji itp.).
+Aby przejść do trybu statystycznego:
+Naciśnij MODE.
+Wybierz odpowiednią opcję (np. Stat, Data). Zatwierdź wybór, aby przejść do obliczeń statystycznych.
+
+**19.Zmiana ustawień daty i godziny**
+
+Jeśli chcesz zmienić datę i godzinę na kalkulatorze TI-85, możesz to zrobić, przechodząc do ustawień systemowych.
+W tym celu wejdź do menu TIME lub DATE i wybierz odpowiednią opcję, aby dostosować datę i godzinę.
+
+**20.Zmienianie ustawień pamięci**
+
+Jeśli chcesz zarządzać pamięcią kalkulatora, TI-85 umożliwia usuwanie zapisanych danych i programów.
+Aby to zrobić, wejdź do menu MEMORY, wybierz Delete lub Clear i wybierz, które dane chcesz usunąć (np. programy, zmienne).
+
+**21.Zmienianie ustawienia prędkości obliczeń**
+
+TI-85 pozwala na dostosowanie prędkości obliczeń kalkulatora.
+Aby zmienić ustawienia prędkości procesora kalkulatora, wejdź w opcje PROCESS lub SPEED, gdzie można dostosować sposób wykonywania obliczeń, co wpływa na czas reakcji kalkulatora.
