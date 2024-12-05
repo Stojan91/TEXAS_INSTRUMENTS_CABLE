@@ -178,27 +178,21 @@ pip install pyserial
 2. **Stwórz prosty program w Pythonie**:
 
    Poniżej znajduje się przykładowy skrypt w Pythonie, który odczytuje dane przesyłane przez port szeregowy z kalkulatora TI-85 przez ESP8266 (w tym przypadku przez WiFi, komunikacja może odbywać się przez port szeregowy lub przez HTTP, w zależności od konfiguracji ESP8266).
+   
+```
+import serial
+import time
 
-```
-import serial import time
-```
-- Ustawienia portu szeregowego (sprawdź, jaki port jest przypisany do twojego urządzenia) ser = serial.Serial('COM3', 9600, timeout=1)  # Zmień COM3 na odpowiedni port (dla systemów Linux to np. /dev/ttyUSB0) time.sleep(2)  # Poczekaj na stabilizację połączenia
-- Odczyt danych z kalkulatora
+# Ustawienia portu szeregowego (sprawdź, jaki port jest przypisany do twojego urządzenia)
+ser = serial.Serial('COM3', 9600, timeout=1)  # Zmień COM3 na odpowiedni port (dla systemów Linux to np. /dev/ttyUSB0)
+time.sleep(2)  # Poczekaj na stabilizację połączenia
 
-```
+# Odczyt danych z kalkulatora
 while True:
-
-if ser.in\_waiting > 0:
-
-data = ser.readline().decode('utf-8').strip() print(f"Odczytano dane: {data}")
+    if ser.in_waiting > 0:
+        data = ser.readline().decode('utf-8').strip()
+        print(f"Odczytano dane: {data}")
 ```
-**Wyjaśnienie:**
-- **serial.Serial('COM3', 9600, timeout=1)**: Tworzy połączenie szeregowe z urządzeniem. W tym przypadku port COM3 (w systemie Windows), prędkość transmisji 9600 bps (standardowa dla TI-85), 
-```
-  timeout 1 sekunda.
-```
-- **ser.readline()**: Odczytuje dane z portu szeregowego. Używamy **`decode('utf-8')`** do konwersji bajtów na tekst, a **`strip()`** do usunięcia zbędnych białych znaków.
-- Program odczytuje dane z portu szeregowego i wyświetla je na ekranie.
 
 **Podłączanie:**
 
