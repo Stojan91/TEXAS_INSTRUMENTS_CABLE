@@ -1,4 +1,4 @@
-
+![ESP8266](example.jpg)
 Aby zapewnić komunikację między mikrokontrolerem ESP8266 a kalkulatorem Texas Instruments TI-85, musimy rozważyć kilka kwestii technicznych. TI-85 używa portu szeregowego (RS232) do komunikacji z komputerem, dlatego konieczne będzie podłączenie tego portu do mikrokontrolera ESP8266. Za pomocą tego portu będziemy mogli przesyłać dane między kalkulatorem a komputerem, z wykorzystaniem ESP8266 jako interfejsu.
 
 **Założenia**
