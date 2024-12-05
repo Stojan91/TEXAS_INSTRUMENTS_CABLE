@@ -17,6 +17,19 @@ Aby zapewnić komunikację między mikrokontrolerem ESP8266 a kalkulatorem Texas
 **Podłączenie:**
 
 1. **ESP8266 i konwerter RS232 do TTL**:
+
+   Schemat wtyczki 2,5" Jack z pinami TX, RX, GND:
+
+Wtyczka 2,5" jack (TRS) ma trzy główne części:
+
+Tip (czubek) - Pierwszy styk.
+Ring (pierścień) - Drugi styk.
+Sleeve (rękaw) - Trzeci styk (najdłuższy).
+Układ Pinów:
+Tip (czubek): Pin TX (Transmisja)
+Ring (pierścień): Pin RX (Odbiór)
+Sleeve (rękaw): Pin GND (Masa)
+
 - Konwerter RS232 (MAX232) ma dwa główne piny: **`TX`** (transmisja) i **`RX`** (odbiór).
 - Pin **`TX`** konwertera podłączymy do pinu **`RX`** ESP8266.
 - Pin **`RX`** konwertera podłączymy do pinu **`TX`** ESP8266.
