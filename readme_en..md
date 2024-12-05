@@ -1,6 +1,3 @@
-Oczywiście! Poniżej znajduje się przetłumaczony plik README w formacie Markdown (`README_EN.md`), gotowy do edycji na GitHubie. Pseudo-kod oraz inne sekcje zostały zachowane, a całość jest przygotowana, abyś mógł łatwo wkleić zawartość do edytora na GitHubie.
-
----
 
 # ESP8266 and TI-85 Communication
 
